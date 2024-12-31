@@ -722,7 +722,8 @@ button[type=submit] {
   margin-left: 0;
 }
 .navbar .container .upper-side .logo img {
-  height: 48px;
+  height: 78px;
+  /* height: 48px; */
 }
 .navbar .container .upper-side .phone-email {
   margin-right: 0;
@@ -1586,10 +1587,12 @@ button[type=submit] {
 }
 .property-plans table tr td {
   padding: 5px 0;
+  color: #000000;
+  font-weight: 600;
 }
 .property-plans table tr td:first-child {
   color: #9f8054;
-  width: 120px;
+  width: 190px;
   font-weight: 600;
 }
 .property-plans .tab-nav {
@@ -3439,4 +3442,11 @@ button[type=submit] {
   }
 }
 
+
+/* custome */
+.brightmedia:hover{
+  color: #5E7F00 !important;
+  
+}
+/* custome */
 /*# sourceMappingURL=style.css.map */
