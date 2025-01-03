@@ -1532,7 +1532,8 @@ button[type=submit] {
 }
 .property-calculator .content-box p {
   display: block;
-  padding-right: 40%;
+  padding-right: 10%;
+  /* padding-right: 70%; */
   margin-bottom: 30px;
 }
 .property-calculator .content-box a {
@@ -2108,7 +2109,12 @@ button[type=submit] {
   opacity: 0.5;
   margin: 0;
 }
-
+.facilities figure figcaption p {
+  font-size: 18px;
+  /* opacity: 0.5; */
+  margin: 0;
+  color: #000000 !important;
+}
 /* FAQ */
 .faq {
   width: 100%;
@@ -2878,6 +2884,7 @@ button[type=submit] {
 }
 .footer-bar .inner figure img {
   height: 70px;
+  
 }
 .footer-bar .inner h3 {
   font-family: "Playfair Display", serif;
@@ -2906,7 +2913,7 @@ button[type=submit] {
   color: #fff;
 }
 .footer .logo {
-  height: 41px;
+  height: 81px;
   margin-bottom: 15px;
 }
 .footer .logo img {
